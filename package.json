@@ -1,0 +1,33 @@
+{
+  "name": "issue-dep-dot",
+  "version": "0.1.0",
+  "description": "issue dependency dot graphs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bins": {
+    "issue-dep-dot": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenet/issue-dep-graph.git"
+  },
+  "keywords": [
+    "github",
+    "issues",
+    "dependencies",
+    "graphs",
+    "dot"
+  ],
+  "author": "Juan Benet <juan@benet.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/issue-dep-graph/issues"
+  },
+  "homepage": "https://github.com/jbenet/issue-dep-graph#readme",
+  "dependencies": {
+    "github-dependency-crawl": "^1.2.0",
+    "minimist": "^1.2.0"
+  }
+}
