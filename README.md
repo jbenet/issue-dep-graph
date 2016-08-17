@@ -69,3 +69,5 @@ digraph deps {
 ```
 
 ![](docs/test.png)
+
+This example is clipped because it's very wide.
