@@ -20,7 +20,6 @@ function usage(code) {
   process.exit(code)
 }
 
-// d18de482bf97f1b10f2b4b31f61ee1d580f2cb32
 function cleanInput(input) {
   // for now only github. remove the prefix.
   return input.replace(/^(https?:)?(\/\/)?github\.com\//, '')
