@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bins": {
-    "issue-dep-dot": "bin.js"
+  "bin": {
+    "issue-dep-dot": "./bin.js"
   },
   "repository": {
     "type": "git",

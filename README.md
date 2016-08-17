@@ -21,7 +21,7 @@ This module is in a super basic state. It just gets the basic transformation the
 
 
 ```
-> issue-dep-graph https://github.com/noffle/github-dependency-crawl
+> issue-dep-dot https://github.com/noffle/github-dependency-crawl
 digraph deps {
     noffle_github_dependency_crawl_12 [label="noffle/github-dependency-crawl/12"];
     noffle_github_dependency_crawl_11 [label="noffle/github-dependency-crawl/11"];
@@ -59,7 +59,7 @@ digraph deps {
 
 ```
 # save the dot output
-> issue-dep-graph https://github.com/noffle/github-dependency-crawl >deps.dot
+> issue-dep-dot https://github.com/noffle/github-dependency-crawl >deps.dot
 
 # make an svg, and view it in your browser
 > cat deps.dot | dot -Tsvg >deps.svg
