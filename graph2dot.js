@@ -68,7 +68,7 @@ function graphEdges(graph) {
 
   for (var n1 in graph) {
     for (var n2 in graph[n1]) {
-      edges.push([n1, graph[n1][n2]])
+      edges.push([graph[n1][n2], n1])
     }
   }
 
